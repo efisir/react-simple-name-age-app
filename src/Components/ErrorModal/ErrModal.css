@@ -1,0 +1,48 @@
+.modal{
+    position:absolute;
+    display:flexbox;
+    top: 8rem;
+    right:10rem;
+    left: 10rem;
+    height: 20rem;
+    
+    justify-content:center;
+    
+    z-index: 1;
+    overflow: hidden;
+    color: rgb(195, 66, 66);
+    background-color: rgb(255, 255, 255);
+   
+    margin: 0.2rem 30% ;
+    width:auto;
+    border-radius: 6px;
+}
+
+.err-modal-btn{
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+.modal-message{
+    position: flex;
+    margin-top: 5rem;  
+    font-weight: bolder;
+    font-size: 1.4rem;
+    justify-content: center;  
+    text-align: center;  
+    
+}
+
+.modal-header{
+    background-color: rgb(105, 133, 157);
+    color: white;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 2rem;   
+    
+
+}
